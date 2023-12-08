@@ -1,0 +1,8 @@
+name: php-demo1
+app: php
+options: {}
+context:
+  git:
+    url: https://github.com/woong-sung/php_demo1.git
+    branch: main
+  preset: php
