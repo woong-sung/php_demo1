@@ -59,6 +59,7 @@
         </div>
     </header>
     <!-- end header section -->
+
     <!-- about me section -->
     <section class="slider_section">
         <div class="container">
