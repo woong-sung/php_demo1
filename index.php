@@ -77,8 +77,8 @@
                             조성웅
                         </h1>
                         <p style="margin-top: 0px; margin-bottom: 0px;">Jo sung woong</p>
-                        <a href="">📞 010-9283-1307</a><br/>
-                        <a href="" style="margin-top: 10px">📧 cjswo138@gmail.com</a><br/>
+                        <a href='tel:'>📞 010-9283-1307</a><br/>
+                        <a href="mailto:cjswo138@gmail.com" style="margin-top: 10px">📧 cjswo138@gmail.com</a><br/>
                         <a href="https://joshbla.tistory.com" style="margin-top: 10px">📝 Blog</a>
                         <a href="https://github.com/woong-sung" style="margin-top: 10px">🐱 GitHub</a>
                     </div>
@@ -132,11 +132,11 @@ foreach ($skills as $key => $skill) {
     echo ' 
             <div class="box">
                 <div class="img-box">
-                    <img src="'.$skill.'" class="img1" alt="">
+                    <img src="' . $skill . '" class="img1" alt="">
                 </div>
                 <div class="detail-box">
                     <h5>
-                        '.$key.'
+                        ' . $key . '
                     </h5>
                 </div>
             </div>';
@@ -161,30 +161,37 @@ echo '</div>
                         </h2>
                         <img src="public/images/plug.png" alt="">
                     </div>
+                    <br>
+                    <h3>
+                        디엘스
+                    </h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehenderit in voluptate velit
+                        23.06 ~ 23.10
                     </p>
-                    <a href="">
-                        Read More
-                    </a>
+                    <p>
+                        - 웹 에이전시 Backend Engineer<br>
+                        - 주요 업무 : PHP(Laravel 프레임워크)를 이용한 백엔드 웹개발
+                    </p>
+
+                    <br>
+                    <h3>
+                        CodeStates 부트캠프
+                    </h3>
+                    <p>
+                        22.06~22.12
+                    </p>
+                    <p>
+                        - Software Engineer Bootcamp(Backend 과정 40기)<br>
+                        - Java,Spring기반 백엔드 과정 학습<br>
+                        - 다양한 자료구조와 알고리즘 학습<br>
+                        - 6개월 동안 매일 알고리즘 문제 풀이<br>
+                        - CS기초 지식과 Network기초 지식 학습<br>
+                        - 매일 과제 수행 및 페어 프로그래밍과 코드 리뷰 경험<br>
+                        - 협업 프로젝트 진행
+                    </p>
+
                 </div>
             </div>
-<!--            <div class="col-md-6">-->
-<!--                <div class="img_container">-->
-<!--                    <div class="img-box b1">-->
-<!--                        <img src="public/images/about-img1.jpg" alt=""/>-->
-<!--                    </div>-->
-<!--                    <div class="img-box b2">-->
-<!--                        <img src="public/images/about-img2.jpg" alt=""/>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--            </div>-->
-
         </div>
     </div>
 </section>
@@ -192,13 +199,13 @@ echo '</div>
 <!-- end experience section -->
 
 
-<!-- blog section -->
+<!-- projects section -->
 
 <section class="blog_section layout_padding" id="projects">
     <div class="container">
         <div class="heading_container">
             <h2>
-                Blog
+                Projects
             </h2>
             <img src="public/images/plug.png" alt="">
         </div>
@@ -206,15 +213,26 @@ echo '</div>
             <div class="col-md-6">
                 <div class="box">
                     <div class="img-box">
-                        <img src="public/images/blog1.jpg" alt="">
+                        <img src="public/images/macwell.png" alt="">
                     </div>
                     <div class="detail-box">
                         <h5>
-                            Blog Title Goes Here
+                            MACWELL
                         </h5>
+                        <a href="https://macwell.it/">
+                            🔗접속 링크
+                        </a>
+                        <br>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised
+                            <b>담당 파트</b><br>
+                            - 카카오 알림톡 및 SMS 연동<br>
+                            - 관리자페이지 제작<br>
+                            - 이메일 인증 기능<br>
+                            - 브랜드 및 상품 관리
+                        </p>
+                        <p>
+                            <b>개발 환경</b><br>
+                            - PHP, Laravel, MySQL, AWS EC2, AWS S3
                         </p>
                     </div>
                 </div>
@@ -222,15 +240,57 @@ echo '</div>
             <div class="col-md-6">
                 <div class="box">
                     <div class="img-box">
-                        <img src="public/images/blog2.jpg" alt="">
+                        <img src="public/images/da.jpg" alt="">
                     </div>
                     <div class="detail-box">
                         <h5>
-                            Blog Title Goes Here
+                            데일리 옥션
                         </h5>
+                        <a href="https://github.com/dailyAuction/project_daily_auction?tab=readme-ov-file">
+                            🔗깃허브 링크
+                        </a>
+                        <br>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised
+                            <b>담당 파트</b><br>
+                            - 회원관리, 게시글 crud<br>
+                            - 실시간 경매 기능<br>
+                            - 검색, 정렬 기능<br>
+                            - 이메일 인증,
+                        </p>
+                        <p>
+                            <b>개발 환경</b><br>
+                            - Java, Spring, redis, websocket, MySQL, AWS EC2, AWS S3
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box">
+                    <div class="img-box">
+                        <img src="public/images/yeogiyo.png" alt="">
+                    </div>
+                    <div class="detail-box">
+                        <h5>
+                            역이요 (여행 커뮤니티)
+                        </h5>
+                        <a href="https://github.com/woong-sung/project_yeogiyo">
+                            🔗깃허브 링크
+                        </a>
+                        <a href="https://codestates.notion.site/40-Team007-f5f31466aa20417597fde76d78641813">
+                            🔗소개 노션 링크
+                        </a>
+                        <br>
+                        <p>
+                            <b>담당 파트</b><br>
+                            - 회원관리, 게시글 crud<br>
+                            - 찜, 추천, 신고 기능<br>
+                            - 관리자 기능(신고, 인기글 관리, 통계)<br>
+                            - 이미지 업로드, 이메일 전송<br>
+                            - Tmap API(거리, 시간 계산)
+                        </p>
+                        <p>
+                            <b>개발 환경</b><br>
+                            - Java, Spring,MySQL, AWS EC2, AWS S3
                         </p>
                     </div>
                 </div>
@@ -239,148 +299,7 @@ echo '</div>
     </div>
 </section>
 
-<!-- end blog section -->
-
-
-<!-- contact section -->
-
-<section class="contact_section layout_padding">
-    <div class="container ">
-        <div class="heading_container">
-            <h2>
-                Contact Us
-            </h2>
-            <img src="public/images/plug.png" alt="">
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <form action="">
-                    <div>
-                        <input type="text" placeholder="Name"/>
-                    </div>
-                    <div>
-                        <input type="email" placeholder="Email"/>
-                    </div>
-                    <div>
-                        <input type="text" placeholder="Phone Number"/>
-                    </div>
-                    <div>
-                        <input type="text" class="message-box" placeholder="Message"/>
-                    </div>
-                    <div class="d-flex ">
-                        <button>
-                            SEND
-                        </button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-md-6">
-                <div class="map_container">
-                    <div class="map-responsive">
-                        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France"
-                                width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%"
-                                allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- end contact section -->
-
-
-<!-- info section -->
-
-<section class="info_section layout_padding">
-    <div class="container">
-        <div class="info_contact">
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="">
-                        <img src="public/images/location-white.png" alt="">
-                        <span>
-                Passages of Lorem Ipsum available
-              </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="">
-                        <img src="public/images/telephone-white.png" alt="">
-                        <span>
-                Call : +012334567890
-              </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="">
-                        <img src="public/images/envelope-white.png" alt="">
-                        <span>
-                demo@gmail.com
-              </span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 col-lg-9">
-                <div class="info_form">
-                    <form action="">
-                        <input type="text" placeholder="Enter your email">
-                        <button>
-                            subscribe
-                        </button>
-                    </form>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-3">
-                <div class="info_social">
-                    <div>
-                        <a href="">
-                            <img src="public/images/fb.png" alt="">
-                        </a>
-                    </div>
-                    <div>
-                        <a href="">
-                            <img src="public/images/twitter.png" alt="">
-                        </a>
-                    </div>
-                    <div>
-                        <a href="">
-                            <img src="public/images/linkedin.png" alt="">
-                        </a>
-                    </div>
-                    <div>
-                        <a href="">
-                            <img src="public/images/instagram.png" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<!-- end info section -->
-
-<!-- footer section -->
-<footer class="container-fluid footer_section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 col-md-9 mx-auto">
-                <p>
-                    &copy; 2019 All Rights Reserved By
-                    <a href="https://html.design/">Free Html Templates</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- footer section -->
-
+<!-- end projects section -->
 
 <script src="public/js/jquery-3.4.1.min.js"></script>
 <script src="public/js/bootstrap.js"></script>
